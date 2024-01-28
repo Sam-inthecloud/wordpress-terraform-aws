@@ -1,4 +1,6 @@
 # Creating a WordPress Website with Terraform and AWS
+![Alt Text](https://github.com/Sam-inthecloud/wordpress-terraform-aws/blob/main/WordPress.png?raw=true)
+
 
 ##   Project Overview
 
@@ -38,18 +40,21 @@ Before you begin, ensure you have the following installed:
    ```bash
    git clone https://github.com/Sam-inthecloud/wordpress-terraform-aws.git
    cd wordpress-terraform-aws
-   terraform init
-   terraform apply
 
    
+- Change database and aws settings in terraform.tfvars file
+- Generate Key pair using  ssh-keygen -f mykey-pair
+  ```bash
+   terraform init
+   terraform apply
+  
 ## Accessing WordPress
 1. Open your browser and enter the public IP address of the EC2 instance.
 
-http://your-ec2-public-ip
+   http://your-ec2-public-ip
 
 2. Follow the on-screen instructions to complete the WordPress setup.
 
-
-## Contributing
-Contributions are welcome! Please check the contributing guidelines for more details.
-
+ - Destroy the resources
+  ```bash
+   terraform destroy

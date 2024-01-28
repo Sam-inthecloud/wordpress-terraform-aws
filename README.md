@@ -24,6 +24,10 @@ The Terraform setup includes :
 
 - EC2 Instance
 
+  
+## Contributions
+Contributions are welcome! Please check the contributing guidelines for more details.
+
 ## Prerequisites
 
 Before you begin, ensure you have the following installed:

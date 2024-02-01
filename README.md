@@ -1,5 +1,5 @@
 # Creating a WordPress Website with Terraform and AWS
-![Alt Text](https://github.com/Sam-inthecloud/wordpress-terraform-aws/blob/main/WordPress.png?raw=true)
+![Alt Text])
 
 
 ##   Project Overview

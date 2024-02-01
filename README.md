@@ -51,6 +51,9 @@ Before you begin, ensure you have the following installed:
   ```bash
    terraform init
    terraform apply
+## Connect to EC2 Instance
+- Install HTTPD, MYSQL & PHP
+- Download and Install WordPress
   
 ## Accessing WordPress
 1. Open your browser and enter the public IP address of the EC2 instance.

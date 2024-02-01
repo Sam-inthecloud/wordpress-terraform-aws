@@ -9,6 +9,9 @@ This project demonstrates how to deploy a WordPress website on AWS using Terrafo
 ## Contributions
 Contributions are welcome! Please check the contributing guidelines for more details.
 
+## Blog
+Click [here](https://medium.com/@saminthecloud1/deploying-wordpress-with-terraform-using-ec2-rds-aws-f60f8419e551) to read into depth my steps.
+
 ## Prerequisites
 
 Before you begin, ensure you have the following installed:
@@ -46,3 +49,5 @@ Before you begin, ensure you have the following installed:
  - Destroy the resources
   ```bash
    terraform destroy
+
+

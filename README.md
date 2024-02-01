@@ -1,29 +1,10 @@
 # Creating a WordPress Website with Terraform and AWS
-![Alt Text])
+![Alt Text](https://github.com/Sam-inthecloud/wordpress-terraform-aws/blob/main/WordPress%20Blog.png?raw=true)
 
 
 ##   Project Overview
 
 This project demonstrates how to deploy a WordPress website on AWS using Terraform for infrastructure provisioning.
-
-The Terraform setup includes :
-
-- A VPC 
-
-- A Public subnet for the EC2 instance hosting WordPress
-
-- 2 Private subnets for the RDS database
-
-- Internet Gateway and Route table
-
-- Security group for the EC2
-
-- Security group for the RDS
-
-- RDS Instance 
-
-- EC2 Instance
-
   
 ## Contributions
 Contributions are welcome! Please check the contributing guidelines for more details.
@@ -46,7 +27,7 @@ Before you begin, ensure you have the following installed:
    cd wordpress-terraform-aws
 
    
-- Change database and aws settings in terraform.tfvars file
+- Change the database and AWS settings in terraform.tfvars file to your own settings.
 - Generate Key pair using  ssh-keygen -f mykey-pair
   ```bash
    terraform init
